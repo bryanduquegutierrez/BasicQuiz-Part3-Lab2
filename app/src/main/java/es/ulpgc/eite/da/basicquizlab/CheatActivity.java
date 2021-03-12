@@ -37,7 +37,7 @@ public class CheatActivity extends AppCompatActivity {
   private void initLayoutData() {
     currentAnswer = getIntent().getExtras().getInt(EXTRA_ANSWER);
   }
-
+  //vamos a probar el primer commit and push
   private void linkLayoutComponents() {
     noButton = findViewById(R.id.noButton);
     yesButton = findViewById(R.id.yesButton);
